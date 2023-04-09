@@ -1,0 +1,97 @@
+/* @import url(./reset.css); */
+/* * {
+    box-sizing: border-box;
+} */
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(17, 46, 72);
+    color: white;
+    padding: 2rem 0;
+}
+
+h1{
+    font-size: 2rem;
+
+}
+h2{
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+h3{
+    font-size: 1rem;
+    padding: 10px 0;
+    text-align: center;
+}
+header nav {
+    margin-top: 20px;
+}
+
+.menu{
+    padding: .5rem .75rem;
+    background-color: rgb(173, 172, 171);
+    margin-right: 10px;
+}
+
+content {
+
+}
+.about{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.about__img{
+    flex-grow: 1;
+    min-width: 400px;
+    flex-basis: 450px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.about__img img, 
+.project__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about__text {
+    display: flex;
+    flex-basis: 400px;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.about__text p {
+    padding-top: 1rem;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: 23%;
+}
+
+.footer {
+    background-color: rgb(56, 59, 61);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__button{
+    width: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+}
